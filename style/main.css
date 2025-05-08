@@ -289,4 +289,27 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+
 }
+
+  
+.birthday-button {
+  background: linear-gradient(135deg, #fddde6, #fcb7d4);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Pacifico', cursive;
+  margin-top: 15px;
+}
+
+.birthday-button:hover {
+  background: linear-gradient(135deg, #fcb7d4, #fddde6);
+  transform: scale(1.05);
+}
+
